@@ -7,6 +7,10 @@ malicious intent, complexity, and manipulativeness. The application then
 provides a score for each prompt and determines if the question passes or fails
 the filters.
 
+The general idea is that you use "global" ChatGPT to filter user generated
+prompts before they can run on your system that has custom/private embeddings.
+
+
 ## Usage
 
 To use the ChatGPT Question Filter, run the `query_check_score` function with a
